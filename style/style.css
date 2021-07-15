@@ -1,0 +1,162 @@
+/* top section */
+body{
+margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bg-color{
+   background-color: blue;
+}
+/* header style add */
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    margin-top: 20px;
+}
+.container a{
+    text-decoration: none;
+    height: 20px;
+    font-size: 2em;
+    color:white;
+    margin-left: 30px;
+    
+}
+/* body style start */
+.container2{
+    display: flex;
+    margin-top: 30px;
+}
+.text-title{
+    color: #FFFF;
+    font-size: 2.40em;
+    width: 456px;
+    height: 230px;
+    margin-top: 60px;
+    margin-left: 180px;
+    margin-right: 52px;
+}
+.box{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 44px;
+    background-color: #E02C6D;
+}
+.text{
+    font-size: 20px;
+    text-decoration: none;
+}
+.text a{
+    text-decoration: none;
+}
+.main-text{
+color: #FFFF;
+}
+.thumnail img{
+    width: 556px;
+    height: 438px;
+    margin-right: 150px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+ /* box hover */
+
+ .bg-color:hover .thumnail img{
+     transform: scale(1.2) rotate(3deg);
+     transition: transform 3s ease;
+ }
+/* player style start */
+
+  .containerk{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    margin-top: 70px;
+}
+.top-players{
+    width: 330px;
+    height: 456px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+.player{
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #FFFFFF;
+
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+    
+}
+.name{
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin: 10px 0;
+}
+.detile{
+    width: 300px;
+    height: 104px;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+/* hover */
+.containerk:hover .player-image img{
+    transform: scale(0.90);
+    transition: transform 4s ease;
+}
+/* form */
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p, input, button{
+    border-color: red;
+    margin-top: 01px;
+    
+}
+button{
+    background-color: blue;
+    color: chartreuse;
+    margin-left: 90px;
+}
+
+/* footer */
+.logo img{
+    width: 483px;
+    height: 110px;
+    margin-top: 126px;
+}
+.fonts{
+       display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.font-awesome{
+   display: flex;
+   margin-top: 20px;
+}
+.fab{
+   width: 32px;
+   height: 32px;
+   text-align: center;
+}
+.copy-right-text{
+   color:  #000000;
+   text-align: center;
+   margin-top: 20px;
+}
